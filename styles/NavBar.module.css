@@ -1,18 +1,19 @@
 .wrapper {
-    display: flex;
-    background-color: black;
-    justify-content: center;
+  display: flex;
+  background-color: #003366;
+  justify-content: center;
+  border-bottom: #80bfff 1px solid;
 }
 
 .width {
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .link {
-    color: white;
-    padding: 20px 0 20px 0;
-    font-size: 18px;
-    font-weight: bold;
+  color: white;
+  padding: 20px 0 20px 0;
+  font-size: 18px;
+  font-weight: bold;
 }
