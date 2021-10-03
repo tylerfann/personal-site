@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 // import Image from 'next/image';
 import LinkButtonRow from "../components/LinkButtonRow";
 import { linkData } from "../lib/linkButtons";
+import Typing from '../components/Typing';
 
 // const icons = {
 //   github: require("../public/images/github-logo.png"),
@@ -14,9 +15,10 @@ const Home: NextPage = () => {
   return (
     <section className={styles.background}>
       <div className={styles.contentWrapper}>
-        <h1 className={styles.header}>
+        <Typing />
+        {/* <h1 className={styles.header}>
           My name is Tyler Fann and I'm a web developer
-        </h1>
+        </h1> */}
         <LinkButtonRow links={linkData} />
       </div>
     </section>
